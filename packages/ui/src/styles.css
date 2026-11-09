@@ -1,0 +1,9 @@
+/* Base layer for @core/ui. Import once, after the Tailwind directives:
+ *   @tailwind base; @tailwind components; @tailwind utilities;
+ *   @import "@core/ui/styles.css";
+ * The colour/font/radius variables themselves come from the theme engine
+ * (themeToCss on the server, applyTheme on the client). */
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground font-sans; letter-spacing: var(--tracking-normal, 0em); }
+}

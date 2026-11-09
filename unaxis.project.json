@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "slug": "unaxis-starter",
+  "name": "UNAXIS Starter",
+  "domains": [],
+  "stack": {
+    "database": { "placement": "auto" },
+    "zones": []
+  }
+}
